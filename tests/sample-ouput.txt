@@ -1,0 +1,22 @@
+Based on the lab assignment and the grade report, let's address the issues with Q1 and help guide the student's thinking:
+
+1. In the provided implementation of the `pbj` function, can you identify why only "jelly" words are being appended to the output for divisible by 5 numbers and not "peanutbutter" for divisible by 3 numbers? What modifications might be needed in the pattern matching to include both conditions?
+
+2. The recursive function `rpbj` currently only checks divisibility by 5. How can you modify the condition to check for divisibility by 3 as well and append the appropriate word?
+
+3. Consider the base case of your recursion. When `k` is 1, you're returning an empty string, but what should be the output when `k` is 1 according to the lab assignment?
+
+4. Think about how you can use recursion to build up the string as you make your recursive call. How does the current code handle the concatenation of strings, and is it preserving the order of words as expected?
+
+5. The output always needs to end with "time.". How can you ensure that this is correctly added at the end of the sentence, no matter what the input `n` is?
+
+6. Reflect on the use of recursion in this task. Are you making progress towards the base case in each recursive step? How can you ensure that the recursion will terminate?
+
+7. Look at the expected output for `dotnet run 10` and `dotnet run 15`. Can you trace what your current implementation would output for these cases? What discrepancies do you find, and how might you resolve them?
+
+8. Consider writing a helper function to determine what word to append based on the current number `k`. How might this simplify your recursive function?
+
+9. After revising your code, think about how you will test it. What inputs will you use to ensure that the function behaves correctly for all cases?
+
+By reflecting on these questions and revising the code accordingly, you should be able to fix the current issues and improve your understanding of recursion, conditionals, and string manipulation in F#.None(openai-env) ssocolow@ssocolow-XPS-15-9520:~/williams/winterstudy2023/llmta$ 
+

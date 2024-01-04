@@ -1,0 +1,20 @@
+Based on the lab assignment information and the grade report provided, let's focus on the most important issues that will help you understand and fix the problems in your implementation of the `pbj` function.
+
+1. The `pbj` function should handle two cases for divisibility: by 3 and by 5. However, your current implementation only checks for divisibility by 5. Can you think of a way to include a check for divisibility by 3 in your recursive function?
+
+2. The `pbj` function should append "peanutbutter" to the output string when the current number `k` is divisible by 3. Your function currently does not do this. How might you modify the match expression to include this logic?
+
+3. Your function is expected to use recursion to build the sentence. It seems you have the basic recursive structure set up with `rpbj`. However, the function doesn't correctly build the sentence as per the lab specification for all numbers 1 through `n`. How can you adjust the recursive call to ensure that each step appends the correct word (if any) for each number?
+
+4. The final sentence must end with the word "time" and a period character. Your implementation correctly appends "time." at the end. However, since your current output is not correct for inputs like 'dotnet run 10', what changes do you think are necessary to make sure the output matches the expected results?
+
+5. The lab assignment requires that the solution be implemented using recursion. Your current implementation seems to meet this criteria, but the logic is not complete. What do you understand by recursion and how can it be applied to build up the sentence incrementally?
+
+6. The assignment specifies that each word in the final sentence should be separated by a single space character. Once you have adjusted your function to include checks for both "peanutbutter" and "jelly", how will you ensure that the words are correctly spaced?
+
+7. When examining your grade report, the outputs for 'dotnet run 10' and 'dotnet run 15' do not match the expected results. This indicates an issue with your logic for determining when to append "peanutbutter" or "jelly". Could you try walking through your function with one of these inputs and manually keep track of what your function is appending at each step?
+
+Addressing these issues should help you correct your implementation and better understand recursion, conditionals, and string manipulation in F#. Remember to test your function with various inputs to ensure it meets all the requirements of the assignment. If you have any specific questions about these concepts or need further clarification, feel free to ask.
+================================
+
+Can you describe how you might adjust the match expression in your `pbj` function to include a check for divisibility by 3 and append "peanutbutter" to the output string when the current number `k` is divisible by 3?

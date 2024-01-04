@@ -1,0 +1,20 @@
+Let's focus on the most critical issues identified in your grade report, particularly with your implementation of the `pbj` function for Q1.
+
+Based on the grade report, it seems that the expected behavior for your `pbj` function is not met for inputs that are divisible by both 3 and 5. It appears that your code currently only checks for divisibility by 5.
+
+1. Can you think of a way to modify your `match` expression to include a condition for when `k` is divisible by both 3 and 5?
+2. How might you include a check for divisibility by 3 in your recursive function?
+3. What will happen in your current implementation if you call `dotnet run 3`? How does this compare to the expected output?
+4. The assignment requires the use of recursion, yet the base case only handles when `n` is 1. How can you ensure that the base case correctly handles the scenario when `n` is 0, considering the program should not output anything for the number 0?
+5. The output for `dotnet run 4` in the example outputs `peanutbutter time.`, but according to the rules, it shouldn't include "peanutbutter" since 4 is not divisible by 3. Can you review the provided examples and clarify the rules for when "peanutbutter" and "jelly" should be appended?
+
+To help you address these questions, consider the following hints:
+
+- Think about how you can expand the `match` expression or the `if` statement to cover all possible conditions (divisible by 3, divisible by 5, divisible by both 3 and 5, or divisible by neither).
+- Reflect on the base case of your recursion and ensure it accurately represents the stopping condition for the recursion.
+- Reviewing the expected behavior of the program for different inputs will help you understand the logic errors in your current implementation.
+================================
+
+Certainly. Here's a single, specific, and actionable question for the student:
+
+Can you identify and implement a condition in your `match` expression that checks whether `k` is divisible by both 3 and 5, and what should the function return in this particular case?

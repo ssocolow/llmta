@@ -1,0 +1,34 @@
+Q1. (15 points): Peanut Butter and Jelly
+
+pbj(n: int) : string is a function that returns a sentence, which is a string composed of a sequence of words. n is a positive, nonzero integer supplied by the user. For each consecutive integer
+between 1 and n inclusive, pbj either appends the empty string to its output or a word. A word is
+a string that contains the substring “peanutbutter” if n is evenly divisible by 3 or “jelly” if n is
+evenly divisible by 5. Each outputted word in the final sentence should be separated by a single space
+character. The entire sentence must end with the word “time” and a “.” character. Finally, use
+recursion to solve this problem.
+
+Here are the first ten outputs of the program.
+
+$ dotnet run 1
+time.
+$ dotnet run 2
+time.
+$ dotnet run 3
+peanutbutter time.
+$ dotnet run 4
+peanutbutter time.
+$ dotnet run 5
+peanutbutter jelly time.
+$ dotnet run 6
+peanutbutter jelly peanutbutter time.
+$ dotnet run 7
+peanutbutter jelly peanutbutter time.
+$ dotnet run 8
+peanutbutter jelly peanutbutter time.
+$ dotnet run 9
+peanutbutter jelly peanutbutter peanutbutter time.
+$ dotnet run 10
+peanutbutter jelly peanutbutter peanutbutter jelly time.
+
+The project directory for this question should be called “q1”. You should be able to run your program
+on the command line by typing, for example, “dotnet run 10”

@@ -1,0 +1,108 @@
+# Grade Sheet for CS334-F23 LAB 2
+
+- [x] means "satisfied"  
+
+- [x] :heavy_exclamation_mark: means "partially satisfied"  
+
+- [ ] means "not satisfied"  
+
+
+Grade: C  
+
+## Collaborators. (5)  
+
+- [ ] collaborators.txt exists.
+
+  * 'collaborators.txt' is missing
+
+## Q1. (15)  
+
+- [x] Program.fs exists.
+
+- [x] Library.fs exists and contains a module named 'CS334'.
+
+- [x] *.fsproj exists
+
+- [x] 'dotnet run' should produce usage output.
+
+- [ ] Output of 'dotnet run 10' is essentially 'peanutbutter jelly peanutbutter peanutbutter jelly time.'.
+
+  * Output 'jelly jelly time.' differs from 'peanutbutter jelly peanutbutter peanutbutter jelly time.'.
+
+- [ ] Output of 'dotnet run 15' is essentially 'peanutbutter jelly peanutbutter peanutbutter jelly peanutbutter peanutbutterjelly time.'.
+
+  * Output 'jelly jelly jelly time.' differs from 'peanutbutter jelly peanutbutter peanutbutter jelly peanutbutter peanutbutterjelly time.'.
+
+- [x] Output of 'dotnet run 1' is essentially 'time.'.
+
+- [x] Does input validation.
+
+  - [x] Ensures that input is numeric.
+
+  - [x] Ensures that input is non-negative.
+
+## Q2. (10)  
+
+- [x] Program.fs exists.
+
+- [x] Library.fs should contain a module named 'CS334'.
+
+- [x] *.fsproj exists
+
+- [x] 'dotnet run' should produce usage output.
+
+- [x] Output of 'dotnet run "a b c d" 3' is essentially '["a b c d"; "a b c d"; "a b c d"]'.
+
+- [x] Output of 'dotnet run moo 0' is essentially '[]'.
+
+- [x] 'dotnet run moo -1' should not crash.
+
+## Q3. (30)  
+
+- [x] Program.fs exists.
+
+- [x] Library.fs should contain a module named 'CS334'.
+
+- [x] *.fsproj exists
+
+- [ ] 'dotnet run' should exercise student test cases.
+
+- [x] zip [1; 3; 5; 7] ["a"; "b"; "c"; "d"]
+
+- [x] zip [1; 3] ["a"; "b"; "c"; "d"]
+
+- [x] zip [] ["a"; "b"; "c"; "d"]
+
+- [x] unzip [(1, "a"); (3, "b"); (5, "c"); (7, "de")]
+
+- [x] zip3 [1; 3; 5; 7] ["a"; "b"; "c"; "de"] [1; 2; 3; 4]
+
+## Q4. (20)  
+
+- [x] Program.fs exists.
+
+- [x] Library.fs should contain a module named 'CS334'.
+
+- [x] *.fsproj exists
+
+- [ ] 'dotnet run' should exercise student test cases.
+
+- [x] maptree (fun x -> x + 1) (Node (Node (Leaf 2, Leaf 3), Leaf 4))
+
+- [x] maptree implementation is documented
+
+- [T] Type annotation description is correct
+
+## Q5. (20)  
+
+- [x] Program.fs exists.
+
+- [x] Library.fs should contain a module named 'CS334'.
+
+- [x] *.fsproj exists
+
+- [ ] 'dotnet run' should exercise student test cases.
+
+- [x] treduce (fun x -> fun y -> x + y) (Node (Node (Leaf 1, Leaf 2), Leaf 3))
+
+- [x] treduce implementation is documented
