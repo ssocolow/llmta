@@ -1,5 +1,5 @@
 # llmTA
-This project aims to see if large langauge models can behave as teaching assistants for a computer science class. Using the lab assignment specification, the student's code, the code for the autograder, and the autograder grade report, the model should generate some questions to prompt the student's thinking in the right direction.
+This project aims to see if large language models can behave as teaching assistants for a computer science class. Using the lab assignment specification, the student's code, the code for the autograder, and the autograder grade report, the model should generate some questions to prompt the student's thinking in the right direction.
 
 ## Quickstart
 Download this project: `git clone https://github.com/ssocolow/llmta.git`  
